@@ -1,0 +1,350 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #0f0f10;
+    color: white;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* --------------navbar-------------------------------- */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    gap:50px;
+}
+.navbar .beats-logo{
+    height: 25px;
+    width: 25px;
+}
+.navbar .navbar-list{
+    display: flex;
+    gap: 65px;
+    align-items: center;
+}
+.navbar .navbar-list ul{
+ list-style: none;
+ display: flex;
+ cursor: pointer;
+ gap: 65px;
+ font-size: 14px;
+ font-weight: 700;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+   
+}
+.shop-btn{
+   padding: 10px 40px;
+   border-radius: 8px;
+   color: #ffffff;
+   background: #1e1e21;
+   font-weight: 300;
+   font-size: 14px;
+}
+/* ----------------------------------main landing page---------------------- */
+main{
+    display: flex;
+    padding: 0 300px;
+}
+main .main-image{
+   width: 230px;
+    margin-top: 0;
+    position: relative;
+    top: -180px;
+    left: 70px;
+}
+main .main-heading{
+    margin-left: 147px;
+    padding: 35px;
+    padding-left: 100px;
+   
+}
+.on-ear{
+    padding-left: 80px;
+    width: 380px;
+}
+.main-heading h1{
+    font-size: 60px;
+    font-weight: 600;
+  
+}
+.main-heading h3{
+   margin: 25px 0;
+   font-size: 16px;
+   font-weight: 500;
+}
+.main-heading p{
+    font-size: 14px;
+    color: #bdc0c2;
+    line-height: 25px;
+    font-weight: 300;
+    width: 65%;
+}
+.main-btn{
+    display: flex;
+    justify-content: space-around;
+    gap: 26px;
+    align-items: center;
+    width: 47%;
+    border-radius: 8px;
+    background-color: #1e1e21;
+    padding: 8px 16px;
+    margin: 30px 0;
+}
+.main-btn h4{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+
+
+
+/* ---------------------Social media--------------------- */
+
+.social-media ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 130px;
+    list-style: none;
+    margin: 70px;
+}
+.social-media ul img{
+    height: 25px;
+}
+
+/*-----------------------------Specs Section---------------------------------  */
+
+.specs-section {
+    margin: 70px;
+
+}
+.specs-section-logo{
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+ 
+}
+
+
+.specs-section-main{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.specs-card{
+ 
+ width: 152px;
+    margin: 20px;
+}
+.specs-card h3{
+    font-size: 18px;
+    font-weight: 300;
+   
+}
+.specs-card p{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.specs-first-card, .specs-fourth-card{
+    position: relative;
+    left: 40px;
+}
+
+/* ------------------------case-section-------------------------- */
+
+.case-section{
+    margin: 20px 0;
+}
+
+.case-section-logo{
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+.case-section-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 78px;
+
+}
+
+.case-right-section{
+  
+    width: 209px;
+}
+.case-right-section p{
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 30px;
+}
+.case-section-btn{
+ display: flex;
+ gap: 20px;
+ background-color: #1e1e21;
+ width: 65%;
+ padding: 8px 16px;
+ border-radius: 6px;
+ margin: 30px 0;
+ font-size: 14px;
+ font-weight: 300;
+}
+
+/* --------------------buy-product------------------------- */
+
+
+.buy-product{
+    margin: 80px 250px;
+    background-color: #1e1e21;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    padding: 27px;
+}
+.buy-product-left{
+ display: flex;
+ flex-direction: column;
+ gap: 16px;
+ width: 25%;
+}
+.buy-product-left h3{
+    font-weight: 500;
+    font-size: 20px;
+}
+.buy-product-left p{
+    font-weight: 300;
+    font-size: 14px;
+}
+.buy-product-left div{
+    display: flex;
+    gap: 16px;
+    background-color: #000000;
+    padding: 10px 16px;
+    width: 110px;
+    border-radius: 8px;
+}
+.buy-product-right{
+    height: 330px;
+}
+
+/* ---------------product----------------------- */
+.product-logo{
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  height: 80px;
+
+}
+
+/* -----------------product card------------------------- */
+.product-items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 25px 500px;
+    
+}
+.product-card{
+    background-color: #1e1e21;
+    margin: 40px;
+    border-radius: 12px;
+    height: 170px;
+    width: 170px;
+}
+.product-img{
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 60px;
+}
+.product-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: self-end;
+    position: relative;
+    bottom: 35px;
+}
+.product-info p{
+   font-weight: 500;
+   font-size: 16px;
+}
+.product-info p span{
+    font-weight: 300;
+    font-size: 14px;
+}
+.shopping-bag{
+    background-color: #000000;
+    border-radius: 9px;
+    padding: 7px;
+   
+}
+/* ----------------------------footer-------------------- */
+
+.footer{
+    display: flex;
+    justify-content: end;
+    gap: 150px;
+    margin: 50px 50px 100px;
+
+}
+.footer ul{
+    list-style: none;
+    cursor: pointer;
+}
+.footer ul li{
+    font-weight: 300;
+    line-height: 30px;
+}
+.footer ul h3{
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.enroll{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.enroll-btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    background-color: #1e1e21;
+    border-radius: 8px;
+    padding: 6px 12px ;
+    color: #7c7c7c;
+
+}
+.enroll-btn div{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    background-color: #000000;
+    padding: 12px 22px;
+    border-radius: 8px;
+    color: #ffffff;
+}
+.enroll-socialmedia{
+    display: flex;
+    gap: 20px;
+    margin-top: 16px;
+    
+}
